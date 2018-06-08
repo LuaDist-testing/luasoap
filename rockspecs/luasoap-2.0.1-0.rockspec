@@ -1,19 +1,11 @@
--- This file was automatically generated for the LuaDist project.
-
 package = "luasoap"
-version = "2.0.2-1"
+version = "2.0.1-0"
 
--- LuaDist source
 source = {
-  tag = "2.0.2-1",
-  url = "git://github.com/LuaDist-testing/luasoap.git"
+url = "",
+   url="http://github.com/downloads/tomasguisasola/luasoap/luasoap-2.0.1.tar.gz",
+   md5="ebac9d3a04a845765d498907a71429c2",
 }
--- Original source
--- source = {
--- url = "",
---    url="http://cloud.github.com/downloads/tomasguisasola/luasoap/luasoap-2.0.2.tar.gz",
---    md5="3aafa06f3a65e65f4ee08e12b89ec583",
--- }
 
 description = {
    summary = "Support for SOAP",
@@ -36,3 +28,4 @@ build = {
       ["soap.client"] = "src/client.lua",
    }
 }
+
